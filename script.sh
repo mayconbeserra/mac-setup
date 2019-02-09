@@ -52,6 +52,7 @@ append_to_file "$shell_file" 'source $ZSH/oh-my-zsh.sh'
 
 # cool bash
 brew cask install iterm2
+brew install tree
 
 # cask
 brew tap caskroom/cask
