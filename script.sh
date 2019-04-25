@@ -68,6 +68,7 @@ brew install "hub"
 
 # Tools
 brew cask install visual-studio-code
+brew cask install azure-data-studio
 
 # Communication
 brew cask install skype
