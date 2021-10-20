@@ -51,11 +51,11 @@ append_to_file "$shell_file" 'ZSH_THEME="robbyrussell"'
 append_to_file "$shell_file" 'source $ZSH/oh-my-zsh.sh'
 
 # cool bash
-brew cask install iterm2
+brew install --cask iterm2
 brew install tree
 
 # cask
-brew tap caskroom/cask
+brew tap homebrew/cask
 
 # Unix
 brew install "git"
@@ -67,18 +67,18 @@ brew install "watchman"
 brew install "hub"
 
 # Tools
-brew cask install visual-studio-code
-brew cask install azure-data-studio
+brew install --cask visual-studio-code
+brew install --cask azure-data-studio
 
 # Communication
-brew cask install skype
-brew cask install slack
+brew install --cask skype
+brew install --cask slack
 
 # Programming language prerequisites and package managers
 brew install "libyaml"
 brew install "coreutils"
 brew install "yarn"
-brew cask install "gpg-suite"
+brew install --cask "gpg-suite"
 
 
 fancy_echo 'All done!'
