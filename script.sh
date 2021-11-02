@@ -43,7 +43,6 @@ brew update
 # install ohmyzsh
 sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-
 # update zsh config
 append_to_file "$shell_file" 'export PATH="$HOME/.bin:$PATH"'
 append_to_file "$shell_file" 'export ZSH="$HOME/.oh-my-zsh"'
@@ -63,12 +62,22 @@ brew install "openssl"
 brew install "vim"
 brew install "watchman"
 
+# iTerm stuff
+brew install zsh-syntax-highlighting
+brew install zsh-completions
+
 # GitHub
 brew install "hub"
 
 # Tools
 brew install --cask visual-studio-code
 brew install --cask azure-data-studio
+brew install --cask postman
+brew install --cask firefox
+brew install --cask docker
+brew install --cask timeular
+brew install --cask keepassxc
+brew install --cask drawio
 
 # Communication
 brew install --cask skype
