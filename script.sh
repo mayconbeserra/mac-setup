@@ -78,6 +78,7 @@ brew install --cask docker
 brew install --cask timeular
 brew install --cask keepassxc
 brew install --cask drawio
+brew install --cask robo-3t
 
 # Communication
 brew install --cask skype
